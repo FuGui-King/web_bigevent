@@ -32,7 +32,7 @@ function getUserInfo() {
             // token可能24小时就失效了 所以需要重新登录
             // console.log(res)
             // 1.判断用户信息是否查询成功
-            console.log(res)
+            // console.log(res)
             // console.log(res.status === 0)
             if(res.status !== 0) {
                 // console.log(11111)
