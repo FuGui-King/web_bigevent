@@ -19,7 +19,7 @@ $(function () {
 
     // 3.上传图片更改 
     $('#file').on('change', function (e) {
-        console.log(e.target.files)
+        // console.log(e.target.files)
         // console.log($('#file')[0].files)
         var filelist = e.target.files;
         if (filelist.length === 0) {

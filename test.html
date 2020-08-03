@@ -13,23 +13,33 @@
 
 </html>
 
-<SCript>
+<script>
 
-    // ES5 的写法
-    function f(x, y, z) {
-        // ...
-    }
-    var args = [0, 1, 2];
-    f.apply(null, args);
+    // // ES5 的写法
+    // function f(x, y, z) {
+    //     // ...
+    // }
+    // var args = [0, 1, 2];
+    // f.apply(null, args);
 
-    // ES6的写法
-    function f(x, y, z) {
-        // ...
-    }
-    let args = [0, 1, 2];
-    f(...args);
+    // // ES6的写法
+    // function f(x, y, z) {
+    //     // ...
+    // }
+    // let args = [0, 1, 2];
+    // f(...args);
+        let obj = {
+            a: 1,
+            b: 2,
+            c: 3
+        };
+        let newobj = {
+            a: 2,
+            b: 0
+        }
+        obj = {...newobj}
 
+        obj = {...newobj,c:3}
+        console.log(obj)
 
-
-
-</SCript>
+</script>
